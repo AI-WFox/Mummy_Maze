@@ -4,7 +4,7 @@
 Mê Cung Tây Du is a strategic 2D maze puzzle game inspired by the legendary Journey to the West. Developed with C++23 and the SDL3 library, the game challenges players to guide Sun Wukong through ancient labyrinths, reaching the exit portal while outsmarting various monsters.
 
 ## My Core Contributions
-As a primary developer for this branch, I implemented the following critical systems and logic:
+As a primary developer for this project, I implemented the following critical systems and logic:
 
 ### Intelligent Monster AI (Hard Mode)
 Developed a sophisticated AI system for the Hard difficulty level using a Finite State Machine (FSM).
