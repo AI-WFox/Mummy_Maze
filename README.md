@@ -46,7 +46,10 @@ Engineered the backend logic for maze environments.
 
 ### Build Instructions
 1. PowerShell Method:
-   g++ -std=c++23 -O2 -Wall -Ilibs/include -Llibs/lib (Get-ChildItem src -Recurse -Filter *.cpp).FullName -lSDL3 -lSDL3_image -lSDL3_ttf -o build\mummymaze.exe
+   ```powershell
+   g++ -std=c++23 -O2 -Wall -Ilibs/include -Llibs/lib (Get-ChildItem src -Recurse -Filter *.cpp).FullName -lSDL3 -lSDL3_image -lSDL3_ttf -o build\mummymaze.exe; ./build\mummymaze.exe
+   
+   ```
 
 2. Automated Script:
    Execute the build.vbs file to initiate the compilation and startup process.
